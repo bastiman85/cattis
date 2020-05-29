@@ -174,7 +174,7 @@ header {
   height: 3em;
   padding: 0em;
   border-radius: 5px;
-  background: #072a2d;
+  background: #1a001a;
   color: white;
   -webkit-transition: opacity 250ms ease;
   transition: opacity 250ms ease;
@@ -302,7 +302,7 @@ header {
 .hero__button {
   cursor: pointer;
   margin-top: 0.5em;
-  background-color: black;
+  background-color: #1a001a;
   -webkit-box-shadow: 3px 3px 10px #30292f;
           box-shadow: 3px 3px 10px #30292f;
 }
@@ -322,8 +322,8 @@ header {
   display: block;
   margin: 2em auto 1em;
   border: 5px solid #b8a3b5;
-  -webkit-box-shadow: 3px 3px 10px black;
-          box-shadow: 3px 3px 10px black;
+  -webkit-box-shadow: 1px 1px 10px black;
+          box-shadow: 1px 1px 10px black;
 }
 
 .behandlingar__link,
@@ -380,8 +380,8 @@ header {
 .hitta-hit .section__btn,
 .produkter .section__btn {
   border-radius: 0.5em;
-  -webkit-box-shadow: 3px 3px 10px #30292f;
-          box-shadow: 3px 3px 10px #30292f;
+  -webkit-box-shadow: 1px 1px 10px #30292f;
+          box-shadow: 1px 1px 10px #30292f;
   margin-bottom: 1em;
 }
 
@@ -433,7 +433,7 @@ header {
 }
 
 .profil {
-  border-radius: 100%;
+  border-radius: 1em;
   width: 500px;
 }
 
@@ -448,7 +448,7 @@ header {
 
 .cta__button {
   margin-top: 1em;
-  background-color: black;
+  background-color: #1a001a;
   -webkit-box-shadow: 3px 3px 10px #30292f;
           box-shadow: 3px 3px 10px #30292f;
 }
