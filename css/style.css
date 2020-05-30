@@ -57,7 +57,7 @@ footer {
 .btn {
   display: inline-block;
   padding: 0.7em 2em;
-  background-color: #b8a3b5;
+  background-color: #7d5ba6;
   border-radius: 10em;
   -webkit-transition: background-color 250ms ease;
   transition: background-color 250ms ease;
@@ -106,7 +106,7 @@ footer {
 /* ** NAVIGATION ** */
 header {
   padding: 1.5em 0;
-  background-color: #635380;
+  background-color: #7d5ba6;
   font-size: 1.2rem;
 }
 
@@ -348,7 +348,7 @@ header {
 .produkter__link {
   display: contents;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 1.2rem;
 }
 
@@ -413,8 +413,8 @@ header {
 
 .boka,
 .produkter {
-  background-color: #60517b;
-  color: white;
+  background-color: #dab6fc;
+  color: black;
 }
 
 .hitta-hit a {
@@ -518,7 +518,7 @@ header {
 /* ** FOOTER ** */
 .footer {
   text-align: left;
-  background-color: #372248;
+  background-color: #7d5ba6;
   color: white;
 }
 
