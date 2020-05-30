@@ -106,12 +106,12 @@ footer {
 /* ** NAVIGATION ** */
 header {
   padding: 1.5em 0;
-  background-color: #7d5ba6;
+  background-color: #dab6fc;
   font-size: 1.2rem;
 }
 
 .brand__link {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -159,7 +159,7 @@ header {
 }
 
 .nav__link {
-  color: white;
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
   -webkit-transition: color 250ms ease;
@@ -167,7 +167,7 @@ header {
 }
 
 .nav__link:hover, .nav__link:focus {
-  color: #bfbfbf;
+  color: #595959;
 }
 
 .nav__link:active {
@@ -175,7 +175,7 @@ header {
 }
 
 .nav__link.active {
-  color: #bfbfbf;
+  color: #595959;
 }
 
 .nav-toggle {
@@ -518,18 +518,18 @@ header {
 /* ** FOOTER ** */
 .footer {
   text-align: left;
-  background-color: #7d5ba6;
-  color: white;
+  background-color: #dab6fc;
+  color: black;
 }
 
 .social a {
-  color: white;
+  color: black;
   -webkit-transition: color 250ms ease;
   transition: color 250ms ease;
 }
 
 .social a:hover, .social a:focus {
-  color: #bfbfbf;
+  color: #595959;
 }
 
 .social span {
