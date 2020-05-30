@@ -59,15 +59,19 @@ footer {
   padding: 0.7em 2em;
   background-color: #b8a3b5;
   border-radius: 10em;
+  -webkit-transition: background-color 250ms ease;
+  transition: background-color 250ms ease;
 }
 
 .btn a {
   text-decoration: none;
   color: white;
+  -webkit-transition: color 250ms ease;
+  transition: color 250ms ease;
 }
 
 .btn:hover, .btn:focus {
-  background-color: #30292f;
+  background-color: #372248;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -121,6 +125,12 @@ header {
   white-space: nowrap;
 }
 
+@media (max-width: 374px) {
+  .brand__title {
+    margin: 0.5em 0;
+  }
+}
+
 .nav {
   visibility: hidden;
   height: 0;
@@ -149,10 +159,11 @@ header {
 }
 
 .nav__link {
-  font-family: "Oswald", sans-serif;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  -webkit-transition: color 250ms ease;
+  transition: color 250ms ease;
 }
 
 .nav__link:hover, .nav__link:focus {
@@ -163,8 +174,8 @@ header {
   color: black;
 }
 
-.nav__link.button:hover, .nav__link.button:focus {
-  color: black;
+.nav__link.active {
+  color: #bfbfbf;
 }
 
 .nav-toggle {
@@ -284,7 +295,7 @@ header {
 .hero__container {
   padding: 1em;
   max-width: 600px;
-  width: 80%;
+  width: 90%;
   margin: 1.5em auto;
   font-size: 1.5rem;
 }
@@ -305,6 +316,8 @@ header {
   background-color: #1a001a;
   -webkit-box-shadow: 3px 3px 10px #30292f;
           box-shadow: 3px 3px 10px #30292f;
+  -webkit-transition: background-color 250ms ease;
+  transition: background-color 250ms ease;
 }
 
 .behandlingar,
@@ -324,6 +337,10 @@ header {
   border: 5px solid #b8a3b5;
   -webkit-box-shadow: 1px 1px 10px black;
           box-shadow: 1px 1px 10px black;
+  -webkit-transition: border-color 250ms ease, -webkit-box-shadow 250ms ease;
+  transition: border-color 250ms ease, -webkit-box-shadow 250ms ease;
+  transition: border-color 250ms ease, box-shadow 250ms ease;
+  transition: border-color 250ms ease, box-shadow 250ms ease, -webkit-box-shadow 250ms ease;
 }
 
 .behandlingar__link,
@@ -369,8 +386,8 @@ header {
 .produkter__image,
 .produkter__link:focus
 .produkter__image {
-  border-color: #4d4d4d;
-  background-color: #333333;
+  border-color: #1a001a;
+  background-color: #1a001a;
   color: white;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -404,6 +421,10 @@ header {
   color: black;
 }
 
+.hitta-hit a:hover, .hitta-hit a:focus {
+  color: gray;
+}
+
 .om-mig {
   background-color: white;
   text-align: center;
@@ -415,26 +436,41 @@ header {
   }
 }
 
-.om-mig .col50 + .col50 {
+.om-mig .col.left {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+@media (min-width: 1060px) {
+  .om-mig .col.left {
+    width: 60%;
+    max-width: unset;
+  }
+}
+
+.om-mig .col.right {
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
           order: -1;
   margin: 1em auto 2em;
+  width: 100%;
 }
 
 @media (min-width: 1060px) {
-  .om-mig .col50 + .col50 {
+  .om-mig .col.right {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
     margin-top: 0;
     margin-left: 2em;
+    width: 40%;
   }
 }
 
 .profil {
   border-radius: 1em;
-  width: 500px;
+  width: 400px;
 }
 
 .cta {
@@ -488,6 +524,12 @@ header {
 
 .social a {
   color: white;
+  -webkit-transition: color 250ms ease;
+  transition: color 250ms ease;
+}
+
+.social a:hover, .social a:focus {
+  color: #bfbfbf;
 }
 
 .social span {
