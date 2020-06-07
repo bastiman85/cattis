@@ -18,5 +18,3 @@ $(document).ready(function () {
       } // End if
    });
 });
-
-$("html,body").animate({ scrollTop: $(window.location.hash).offset().top });
