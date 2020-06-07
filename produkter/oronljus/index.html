@@ -3,44 +3,69 @@
    <head>
       <base href="https://bastiman85.github.io/cattis/">
       <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
       <meta property=“og:image” content=“https://bastiman85.github.io/cattis/images/hero-social.jpg” />
       <meta property=”og:image:width” content=”1200″ />
       <meta property=”og:image:height” content=”627″ />
       <script src="https://kit.fontawesome.com/f5ab4de72b.js" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="/css/style.css" />
       <title>Energy & Wellness by Catharina</title>
    </head>
-   <body>
-      <header>
+   <body class="subpage">
+      <header id="header">
          <div class="container row">
             <button class="nav-toggle" aria-label="open navigation">
                <span class="hamburger"></span>
             </button>
-            <a class="brand__link" href="/cattis">
+            <a class="brand__link" href="/">
                <h1 class="brand__title"><span>Energy & Wellness</span> <span>by Catharina</span></h1>
             </a>
             <nav class="nav">
                <ul class="nav__list">
-                  <li class="nav__item"><a class="nav__link" href="boka/">Boka tid</a></li>
-                  <li class="nav__item"><a class="nav__link" href="behandlingar/">Behandlingar</a></li>
-                  <li class="nav__item"><a class="nav__link active" href="produkter/">Produkter</a></li>
+                  <li class="nav__item"><a class="nav__link" href="/#boka">Boka tid</a></li>
+                  <li class="nav__item"><a class="nav__link" href="/#behandlingar">Behandlingar</a></li>
+                  <li class="nav__item"><a class="nav__link active" href="/#produkter">Produkter</a></li>
                </ul>
             </nav>
          </div>
       </header>
-      
-      <footer class="footer">
+      <div class="submenu center">
+         <nav class="side-nav">
+            <div class="container">
+               <ul class="side-nav__list">
+                  <li class="side-nav__item"><a class="side-nav__link" href="/produkter/matta/">Akupressur</a></li>
+                  <li class="side-nav__item"><a class="side-nav__link active" href="/produkter/oronljus/">Öronljus</a></li>
+                  <li class="side-nav__item"><a class="side-nav__link" href="/produkter/aloevera/">Aloevera</a></li>
+               </ul>
+            </div>
+         </nav>
+        </div>
+      <main class="main">
+               <section>
+                  <div class="container">
+                     <div class="main__content">
+                        <h2 class="section__sub-title center">Öronljus</h2>
+                        <div class="row">
+                           <div class="main__content-left">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, rerum impedit neque alias ad voluptatibus placeat consequuntur eaque ab rem sed, aliquid assumenda eius ea exercitationem amet dicta accusantium labore quibusdam similique quis perspiciatis minima! Minima dolore delectus inventore sed! Exercitationem provident laboriosam iste cupiditate quo et libero similique, vitae nihil blanditiis aliquam laborum incidunt maiores totam dolor. Exercitationem totam aperiam enim. Ex laboriosam odio iure nemo cum, nisi, nam totam aspernatur aperiam aliquid autem repellat nostrum? Inventore dicta est nam corrupti omnis modi ipsum excepturi.</p>
+                           </div>
+                           <div class="main__content-right"><img src="/images/oronljus_c.jpg" alt="spikmatta" class="sidebar__image"></div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+      </main>
+      <footer class="footer center">
          <div class="container">
             <h2 class="section__title"></h2>
             <div class="row">
                <div class="col">
-                  <p>
+                  <p></p>
                      <div class="social mail"><a href="mailto:energywellnessbyc@gmail.com"><span class="fas fa-envelope-square"></span></span>energywellnessbyc@gmail.com</a></div>
                      <div class="social tel"><a href="tel:+46760808356"><span class="fas fa-phone-square-alt"></span>076 - 08 08 356</a></div>
                      <div class="social facebook"><a href="https://www.facebook.com/pg/energyowellnessbycatharina/"><span class="fab fa-facebook-square"></span>Energy and Wellness by Catharina</a></div>
                      <div class="social instagram"><a href="https://www.instagram.com/energy_o_wellness_by_catharina/"><span class="fab fa-instagram-square"></span>@energy_o_wellness_by_catharina</a></div>
-                  </p>
+                  
                </div>
                <div class="col">
                   <p><strong>Jag tar emot: </strong><br />Benify<br />Hälsoresurs klippkort<br />Friskvårdskuponger/ePassi<br />ActiWay fd Friskvårdschecken</p>
@@ -49,11 +74,13 @@
                <div class="col">
                   <p><strong>Medlem i</strong><br />Förenade Reikiförbundet i Sverige</p>
                   <p><strong>Innehar F-skattsedel</strong></p>
+                  <p>ALL kroppsmassage och Reiki <br />healing är klassat som friskvård<br /> enligt Skatteverket</p>
                </div>
             </div>
-            <p class="center">ALL kroppsmassage och Reiki healing är klassat som friskvård enligt Skatteverket</p>
+            
          </div>
       </footer>
-      <script src="js/main.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="/js/main.js"></script>
    </body>
 </html>
