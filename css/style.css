@@ -538,6 +538,13 @@ header {
   color: gray;
 }
 
+.hitta-hit__bild {
+  height: 450px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .produkter {
   background: url(../images/pink_drop.jpg);
   background-position: center center;
@@ -721,6 +728,8 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .side-nav__link {
