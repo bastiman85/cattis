@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="sv">
    <head>
-      <base href="https://bastiman85.github.io/cattis/">
+      <base href="https://bastiman85.github.io/cattis/" />
       <meta charset="UTF-8" />
-      <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+      <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
       <meta property=“og:image” content=“https://bastiman85.github.io/cattis/images/hero-social.jpg” />
-      <meta property=”og:image:width” content=”1200″ />
-      <meta property=”og:image:height” content=”627″ />
+      <meta property="”og:image:width”" content="”1200″" />
+      <meta property="”og:image:height”" content="”627″" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="js/jq.js"></script>
       <script src="https://kit.fontawesome.com/f5ab4de72b.js" crossorigin="anonymous"></script>
@@ -36,7 +36,7 @@
             <div class="hero__image center" id="hero__image">
                <div class="hero__container" id="hero__container">
                   <p class="hero__text focus">
-                     Varmt välkommen till Energy & Wellness by Catharina! Unna dig en avkopplande stund i mysiga lokaler mitt i stan. 
+                     Varmt välkommen till Energy & Wellness by Catharina! Unna dig en avkopplande stund i mysiga lokaler mitt i stan.
                   </p>
                   <p class="hero__text">
                      Vi erbjuder massage och mediala behandlingar och är även återförsäljare av den fantastiska Svenska Akupressurmattan, Forever AloeVera-produkter samt Öronljus
@@ -107,20 +107,37 @@
             <h2 class="section__title">Hitta hit</h2>
             <iframe class="karta" width="100%" height="450" frameborder="0" style="border: 0;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJf2XHQHCdX0YRYjd5rzHzv30&key=AIzaSyAyKkS0q-A2ViHijPB7eDgsWNw-wR9J4hY" allowfullscreen></iframe>
             <div class="container row">
-               <div class="adress">Västmannagatan 67<br />Odenplan, Stockholm<br />Sms: <a href="tel:+46760808356">076 - 08 08 356</a><br /><a href="mailto:energywellnessbyc@gmail.com">energywellnessbyc@gmail.com</a></div>
+               <div class="adress">
+                  Västmannagatan 67<br />Odenplan, Stockholm<br />Sms: <a href="tel:+46760808356">076 - 08 08 356</a><br /><a href='javascript:window.location="mail"+"to:"+"energywellnessbyc"+"@"+"gmail"+"."+"com";' onmouseover='window.status="mail"+"to:"+"energywellnessbyc"+"@"+"gmail"+"."+"com"; return true;' onmouseout='window.status="";return true;'><span class="codedirection">moc.liamg@cybssenllewygrene</span></a>
+               </div>
             </div>
          </section>
          <section id="produkter" class="section produkter center">
             <div class="dimmer"></div>
-               <div class="container">
-                  <h2 class="section__title">Produkter</h2>
+            <div class="container">
+               <h2 class="section__title">Produkter</h2>
+               <div class="row">
+                  <div class="sub-section">
+                     <a href="produkter/matta/" class="produkter__link">
+                        <img src="images/spikmatta.jpg" alt="" class="produkter__image" />
+                        <span class="section__sub-title">Akupressurmattan</span>
+                     </a>
+                  </div>
+                  <div class="sub-section">
+                     <a href="produkter/oronljus/" class="produkter__link">
+                        <img src="images/oronljus.jpeg" alt="" class="produkter__image" />
+                        <span class="section__sub-title">Öronljus</span>
+                     </a>
+                  </div>
+                  <div class="sub-section">
+                     <a href="produkter/aloevera/" class="produkter__link">
+                        <img src="images/aloevera.jpg" alt="" class="produkter__image" />
+                        <span class="section__sub-title">Aloe Vera</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="moreproducts hide">
                   <div class="row">
-                     <div class="sub-section">
-                        <a href="produkter/matta/" class="produkter__link">
-                           <img src="images/spikmatta.jpg" alt="" class="produkter__image" />
-                           <span class="section__sub-title">Akupressurmattan</span>
-                        </a>
-                     </div>
                      <div class="sub-section">
                         <a href="produkter/oronljus/" class="produkter__link">
                            <img src="images/oronljus.jpeg" alt="" class="produkter__image" />
@@ -135,7 +152,8 @@
                      </div>
                   </div>
                </div>
-            
+               <button class="btn btn-secondary arrowtoggle more"><span class="arrow fas fa-arrow-down"></span></button>
+            </div>
          </section>
          <section id="om-mig" class="section om-mig center">
             <div class="container">
@@ -149,7 +167,7 @@
                      <p><strong>Diplomerad Spaterapeut och Friskvårdsmassör</strong><br />på Axelson Spa School</p>
                      <p>Jag har även fler behandlingar som t.ex. olika massage- och healingmetoder, öronljusbehandling och medial coachning för personlig utveckling.</p>
                   </div>
-                  <div class="col right"><img src="images/catharina2.jpg" alt="Catharina" class="profil"></div>
+                  <div class="col right"><img src="images/catharina2.jpg" alt="Catharina" class="profil" /></div>
                </div>
             </div>
          </section>
@@ -160,11 +178,18 @@
             <div class="row">
                <div class="col">
                   <p></p>
-                     <div class="social mail"><a href="mailto:energywellnessbyc@gmail.com"><span class="fas fa-envelope-square"></span></span>energywellnessbyc@gmail.com</a></div>
-                     <div class="social tel"><a href="tel:+46760808356"><span class="fas fa-phone-square-alt"></span>076 - 08 08 356</a></div>
-                     <div class="social facebook"><a href="https://www.facebook.com/pg/energyowellnessbycatharina/"><span class="fab fa-facebook-square"></span>Energy and Wellness by Catharina</a></div>
-                     <div class="social instagram"><a href="https://www.instagram.com/energy_o_wellness_by_catharina/"><span class="fab fa-instagram-square"></span>@energy_o_wellness_by_catharina</a></div>
-                  
+                  <div class="social mail">
+                     <a href='javascript:window.location="mail"+"to:"+"energywellnessbyc"+"@"+"gmail"+"."+"com";' onmouseover='window.status="mail"+"to:"+"energywellnessbyc"+"@"+"gmail"+"."+"com"; return true;' onmouseout='window.status="";return true;'><span class="fas fa-envelope-square"></span><span class="codedirection">moc.liamg@cybssenllewygrene</span></a>
+                  </div>
+                  <div class="social tel">
+                     <a href="tel:+46760808356"><span class="fas fa-phone-square-alt"></span>076 - 08 08 356</a>
+                  </div>
+                  <div class="social facebook">
+                     <a href="https://www.facebook.com/pg/energyowellnessbycatharina/"><span class="fab fa-facebook-square"></span>Energy and Wellness by Catharina</a>
+                  </div>
+                  <div class="social instagram">
+                     <a href="https://www.instagram.com/energy_o_wellness_by_catharina/"><span class="fab fa-instagram-square"></span>@energy_o_wellness_by_catharina</a>
+                  </div>
                </div>
                <div class="col">
                   <p><strong>Jag tar emot: </strong><br />Benify<br />Hälsoresurs klippkort<br />Friskvårdskuponger/ePassi<br />ActiWay fd Friskvårdschecken</p>
@@ -173,10 +198,12 @@
                <div class="col">
                   <p><strong>Medlem i</strong><br />Förenade Reikiförbundet i Sverige</p>
                   <p><strong>Innehar F-skattsedel</strong></p>
-                  <p>ALL kroppsmassage och Reiki <br />healing är klassat som friskvård<br /> enligt Skatteverket</p>
+                  <p>
+                     ALL kroppsmassage och Reiki <br />healing är klassat som friskvård<br />
+                     enligt Skatteverket
+                  </p>
                </div>
             </div>
-            
          </div>
       </footer>
       <script src="js/main.js"></script>

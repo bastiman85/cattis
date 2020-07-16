@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ** TABLE OF CONTENT ** */
 /* ********************** */
 /* ** RESETS           ** */
@@ -125,6 +126,23 @@ section {
   color: white;
 }
 
+.btn-secondary {
+  background-color: #fff;
+  border-color: transparent;
+  border-radius: 10em;
+  -webkit-box-shadow: 3px 3px 10px #976d91;
+          box-shadow: 3px 3px 10px #976d91;
+  margin-top: 2em;
+  font-size: 1em;
+  -webkit-transition: background-color 250ms ease;
+  transition: background-color 250ms ease;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+  background-color: #ce9efa;
+  color: white;
+}
+
 .section__title {
   text-align: center;
   font-size: 2rem;
@@ -150,6 +168,19 @@ section {
   .col50 + .col50 {
     margin-left: 2em;
   }
+}
+
+span.codedirection {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.more:before {
+  content: "Visa fler produkter ";
+}
+
+.less:before {
+  content: "Visa färre produkter ";
 }
 
 /* ** NAVIGATION ** */
@@ -530,6 +561,16 @@ header {
   opacity: 0.6;
 }
 
+.produkter .moreproducts.hide {
+  display: none;
+}
+
+.produkter .moreproducts .row {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 .om-mig {
   background-color: white;
 }
@@ -827,7 +868,7 @@ header {
   color: #595959;
 }
 
-.social span {
+.social span:first-of-type {
   font-size: 1.3em;
   vertical-align: middle;
   margin-right: 0.3em;
